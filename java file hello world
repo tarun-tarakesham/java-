@@ -1,1 +1,22 @@
-hello
+public class tara
+{
+	public static void main(String args[])
+	{
+		System.out.println("hello tara");//prints in next line
+		System.out.println("hi tarun 1");//prints in next line
+		System.out.println("hi tarun 2");//prints in next line
+		System.out.println("hi tarun 3");//prints in next line
+		System.out.println("hi tarun 4");//prints in next line
+		System.out.println("hi tarun 5");//prints in next line
+	}
+}
+
+
+output:
+hello tara
+hi tarun 1
+hi tarun 2
+hi tarun 3
+hi tarun 4
+hi tarun 5
+
