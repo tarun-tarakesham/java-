@@ -1,0 +1,15 @@
+public class tara
+{
+	public static void main(String args[])
+	{
+     int s='a';
+     char ch=67;
+     System.out.println(s);
+     System.out.println(ch);
+	}
+
+}
+
+output:
+97
+C
