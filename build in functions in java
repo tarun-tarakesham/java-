@@ -1,0 +1,38 @@
+String Length:length()
+----------------------------------------------------------------------
+example:
+String txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+System.out.println("The length of the txt string is: " + txt.length());
+-----------------------------------------------------------------------
+ toUpperCase() and toLowerCase():
+ example:
+ String txt = "Hello World";
+System.out.println(txt.toUpperCase());   // Outputs "HELLO WORLD"
+System.out.println(txt.toLowerCase());   // Outputs "hello world"
+------------------------------------------------------------------------
+indexOf():
+example:
+String txt = "Please locate where 'locate' occurs!";
+System.out.println(txt.indexOf("locate")); // Outputs 7
+------------------------------------------------------------------------
+Java String Concatenation:
+example:(two ways)
+public class Main {
+  public static void main(String[] args) {
+    String firstName = "John";
+    String lastName = "Doe";
+    System.out.println(firstName.concat(lastName));
+    System.out.println(firstName+lastName);
+  }
+}
+output:
+JohnDoe
+JohnDoe
+--------------------------------------------------------------------------
+Math.max(x,y)//return maximum value
+Math.min(x,y)//return minimum value
+Math.sqrt(64)//return power value-8
+Math.random()//returns a random value between 0,1
+Math.abs(-4.7)//output=4.7 return positive value
+---------------------------------------------------------------------------
+
