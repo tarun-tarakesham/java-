@@ -1,0 +1,35 @@
+String - stores text, such as "Hello". String values are surrounded by double quotes
+int - stores integers (whole numbers), without decimals, such as 123 or -123
+float - stores floating point numbers, with decimals, such as 19.99 or -19.99
+char - stores single characters, such as 'a' or 'B'. Char values are surrounded by single quotes
+boolean - stores values with two states: true or false
+
+example program:
+public class tara
+{
+	public static void main(String args[])
+	{
+     int mynumber=20;
+     int mysecondnumber;
+     mysecondnumber=10;
+     String name="tarakesham";
+     float floatval=2.001f;
+     boolean boolval=true;
+     char charval='a';
+     System.out.println(mynumber);
+     System.out.println(mysecondnumber);
+     System.out.println(name);
+     System.out.println(floatval);
+     System.out.println(boolval);
+     System.out.println(charval);
+	}
+
+}
+
+output:
+20
+10
+tarakesham
+2.001
+true
+a
