@@ -20,3 +20,46 @@ output:
 7
 8
 8
+
+-----------------------------------------------------------------------------------------------------------------
+reading elements and printing array elemets:
+import java.util.*;
+public class tara
+{
+	public static void main(String args[])
+	{
+		Scanner sc=new Scanner(System.in);
+		int soa=sc.nextInt();
+		System.out.println(soa);
+		int ages[]=new int[soa];
+		for(int i=0;i<soa;i++)
+		{
+            ages[i]=sc.nextInt();
+		}
+		System.out.println(soa);
+		
+		for(int val:ages)
+		{
+			System.out.println(val);
+		}
+		System.out.println("length of the array is "+ages.length);
+	}
+}
+output:
+C:\Users\Tarun\Desktop\java programs>javac tara.java
+
+C:\Users\Tarun\Desktop\java programs>java tara
+5
+5
+1
+2
+3
+4
+5
+5
+1
+2
+3
+4
+5
+length of the array is 5
