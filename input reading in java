@@ -13,3 +13,19 @@ long nextLong()	              It is used to scan the next token of the input as 
 short nextShort()        	    It is used to scan the next token of the input as a Short.
 BigInteger nextBigInteger()	  It is used to scan the next token of the input as a BigInteger.
 BigDecimal nextBigDecimal()  	It is used to scan the next token of the input as a BigDecimal.
+---------------------------------------------------------------------------------------------------------
+to read a character
+import java.util.Scanner;   
+public class CharacterInputExample1  
+{   
+public static void main(String[] args)   
+{   
+Scanner sc = new Scanner(System.in);   
+System.out.print("Input a character: ");  
+// reading a character   
+char c = sc.next().charAt(0);   
+//prints the character   
+System.out.println("You have entered "+c);   
+}   
+}  
+-----------------------------------------------------------------------------------------------------------
