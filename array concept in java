@@ -63,3 +63,8 @@ C:\Users\Tarun\Desktop\java programs>java tara
 4
 5
 length of the array is 5
+
+
+
+2d array initilization:
+int[][] array=new int[size of row][size of coloum];
